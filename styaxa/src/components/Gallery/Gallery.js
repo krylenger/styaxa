@@ -38,6 +38,9 @@ const Gallery = ({section}) => {
             imagesSource = imagesNude;
             break;
         }
+        default: {
+            imagesSource = imagesMain;
+        }
     }
     console.log(imagesSource);
     
