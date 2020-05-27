@@ -51,9 +51,6 @@ img {
 
 
 @media screen and (max-width: 767.98px) {
-    .gallery-column {
-        /* background-color: green; */
-    }
     
     img {
         width: 100%;
@@ -68,7 +65,7 @@ img {
         flex-direction: row;
         height: auto;
         margin: 0px;
-        align-items: flex-start;
+        align-items: start;
 
     }
 
@@ -89,6 +86,8 @@ img {
         margin: 0px;
         transform: none;  
         transition: none;
+        align-self: center;
+
     }
     .img-1-3:hover {
         transform: none;  
