@@ -4,6 +4,7 @@ import Introduction from "../components/Introduction/Introduction";
 import Gallery from "../components/Gallery/Gallery";
 import ContactInfo from "../components/ContactInfo/ContactInfo";
 import ButtonsList from "../components/ButtonsList/ButtonsList";
+import Presets from "../components/Presets/Presets";
 import './App.css';
 
 
@@ -30,6 +31,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Introduction />
+        <Presets />
         <ButtonsList changeGallerySection={this.changeGallerySection}/>
         <Gallery section={this.state.section}/>
         <ContactInfo />
