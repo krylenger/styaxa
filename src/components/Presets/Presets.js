@@ -19,7 +19,7 @@ const Presets = () => {
                 <input type="hidden" name="need-address" value="false"/>
                 <label className='card'><input type="radio" name="paymentType" value="AC" checked/></label>
                 {/* <label><input type="radio" name="paymentType" value="PC"/>Яндекс.Деньгами</label> */}
-                <input className='button-payment' type="submit" value="Купить набор пресетов всего за 499 руб"/>
+                <input className='button-payment' type="submit" value="Купить набор пресетов всего за 9 руб"/>
             </form>
         </div>
     );
